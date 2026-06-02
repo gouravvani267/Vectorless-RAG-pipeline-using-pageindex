@@ -1,0 +1,29 @@
+{
+  "created_at": "2026-06-02T14:31:48+00:00",
+  "source": {
+    "path": "demo_doc.md",
+    "type": "markdown"
+  },
+  "pages": [
+    {
+      "id": "p001",
+      "summary": "- Demo document illustrating an Interview Retrieval‑Augmented Generation (RAG) setup.",
+      "text": "# Demo Doc (Interview RAG)"
+    },
+    {
+      "id": "p002",
+      "summary": "- This brief document serves as a demo for a retrieval‑augmented generation (RAG) pipeline that indexes the text (using a page/section index, not vector embeddings), retrieves relevant sections with BM25, and then prompts an LLM to answer using only the retrieved context.",
+      "text": "## What is this?\nThis is a tiny document you can use to demo a retrieval-augmented generation (RAG) pipeline.\nThe pipeline ingests this file, builds a **page/section index** (no vectors), retrieves the most relevant\npages with BM25, and asks an LLM to answer using only retrieved context."
+    },
+    {
+      "id": "p003",
+      "summary": "- Vectify is developing an internal assistant to help with policy and engineering documentation.  \n- The first milestone excludes a vector database, requires a human‑inspectable index, and must support fast retrieval for interactive Q&A.",
+      "text": "## Product overview\nVectify is building an internal assistant for policy and engineering docs.\n\nKey constraints:\n- No vector DB in the first milestone.\n- Index must be inspectable by humans.\n- Retrieval should be fast enough for interactive Q&A."
+    },
+    {
+      "id": "p004",
+      "summary": "- The policy prohibits storing API keys in the repository and sending customer personally identifiable information (PII) to external services.  \n- For demonstrations, only synthetic (non‑real) data may be used.",
+      "text": "## Security policy\nWe never store API keys in the repo.\nWe do not send customer PII to external services.\nFor demos, use synthetic data."
+    }
+  ]
+}
